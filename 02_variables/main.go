@@ -4,6 +4,7 @@ package main
 import "fmt"
 
 var age = 19
+const PI float32 = 3.14
 func main() {
 	var smallVal int8 = 123
 	fmt.Println(smallVal)
@@ -62,6 +63,5 @@ func main() {
 	fmt.Println(favSub)
 	fmt.Println("This is Arnab Mitra")
 	fmt.Println("I am",age,"years old")
-	const PI float32 = 3.14
 	fmt.Println("The value of pi is",PI)
 }
